@@ -6,6 +6,10 @@ h1 {
     font-size: 50px;
 }
 
+p {
+    text-align: justify;
+}
+
 .orange-color {
     color: orange;
 }
@@ -17,7 +21,7 @@ section {
 .half-width {
     width: 50%;
     padding-left: 3%;
-
+    padding-top: 3%;
 }
 
 .half-width img {
@@ -33,6 +37,43 @@ section {
     font-size: 15px;
 }
 
-.top-gap {
-    padding-top: 8%;
+.middle {
+    text-align: center;
+    color: tomato;
+}
+
+.full {
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    text-align: justify;
+    border-radius: 12px;
+
+}
+
+
+.clr {
+    color: cornflowerblue;
+}
+
+#box {
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#box2 {
+    border-left: 10px solid;
+    border-image: linear-gradient(cyan, blue);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
